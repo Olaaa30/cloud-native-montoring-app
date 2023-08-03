@@ -39,6 +39,7 @@ api_instance.create_namespaced_deployment(
     body=deployment
 )
 
+
 # Define the service
 service = client.V1Service(
     metadata=client.V1ObjectMeta(name="flask-service"),
